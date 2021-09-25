@@ -4,9 +4,11 @@ package demo;
 public class buoi3 {
    
 	public static void main(String[]args) {
-		hcn a = new hcn(9,5);
-    System.out.println(" Dien tich: " + a.getDientich());
-    System.out.println(" Chu vi: " + a.getChuvi());
+	    hcn a = new hcn();
+	    a.getDai();
+	    a.getRong();
+	    System.out.println(" Dien tich: " + a.getDientich());
+	    System.out.println(" Chu vi: " + a.getChuvi());
 	}
 }
 
